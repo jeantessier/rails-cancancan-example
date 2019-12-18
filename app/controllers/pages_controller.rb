@@ -1,4 +1,3 @@
 class PagesController < ApplicationController
-  def index
-  end
+  skip_authorization_check
 end

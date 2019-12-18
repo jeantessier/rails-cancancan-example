@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  skip_authorization_check
+
   def update
     id = params[:id].to_i
     session[:id] = User::ROLES.has_key?(id) ? id : 0
