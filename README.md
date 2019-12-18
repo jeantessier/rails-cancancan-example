@@ -1,24 +1,20 @@
-# README
+# iCan
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This sample project illustrates the `CanCanCan` gem for authorizing actions on
+Active Records in specific controller action.
 
-Things you may want to cover:
+This sample is based on [a CanCanCan tutorial](https://www.sitepoint.com/cancancan-rails-authorization-dance/).
 
-* Ruby version
+## Setup
 
-* System dependencies
+```bash
+bin/rake db:migrate db:seed
+```
 
-* Configuration
+## Running
 
-* Database creation
+```bash
+bin/rails server
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And point your browser to http://localhost:3000.
