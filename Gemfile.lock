@@ -66,6 +66,7 @@ GEM
       sassc (>= 2.0.0)
     builder (3.2.4)
     byebug (11.0.1)
+    cancancan (3.0.1)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
     erubi (1.9.0)
@@ -189,6 +190,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   bootstrap-sass
   byebug
+  cancancan
   jbuilder (~> 2.7)
   jquery-turbolinks
   listen (>= 3.0.5, < 3.2)
