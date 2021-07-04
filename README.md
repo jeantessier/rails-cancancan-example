@@ -8,7 +8,7 @@ This sample is based on [a CanCanCan tutorial](https://www.sitepoint.com/cancanc
 ## Setup
 
 ```bash
-bin/rake db:migrate db:seed
+bin/rails db:migrate db:seed
 ```
 
 ## Running
