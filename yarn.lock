@@ -1775,26 +1775,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actioncable@npm:^6.0.0":
-  version: 6.1.6
-  resolution: "@rails/actioncable@npm:6.1.6"
-  checksum: 25a3bd1aab6b503b90f2086f778be30322b4f9902af69c197180f8140b5893051b83ab576f72c3867e1053e672e2c2b38cdc75772c55d5123c9421d37ed15b60
+"@rails/actioncable@npm:*":
+  version: 8.0.201
+  resolution: "@rails/actioncable@npm:8.0.201"
+  checksum: cb44de07c58cff9135d2c6965ef5f789877a13d9b990fa010f23ffb140524c15af36392c7cb2a5792dc3c8875941e6e1eee6a72fad4d4fb7ea8a66be9b448e84
   languageName: node
   linkType: hard
 
-"@rails/activestorage@npm:^6.0.0":
-  version: 6.1.6
-  resolution: "@rails/activestorage@npm:6.1.6"
+"@rails/activestorage@npm:*":
+  version: 8.0.201
+  resolution: "@rails/activestorage@npm:8.0.201"
   dependencies:
-    spark-md5: ^3.0.0
-  checksum: 699e036e1a2634a6a03734c7fd548e82cd99df481ee2e8f0ea052b950fbddcaa073bf7feff4a1525f1dc569a88800f4e119efb6a9547cb1b07b0085be0c00e02
+    spark-md5: ^3.0.1
+  checksum: b94a71ef1b26947cb4761ba282eabecb628458b5410952a547219a6eac9bb80da09bd0ce87f43b81036d3d3a27c6245cffe999892c1443ded9434878375c0e02
   languageName: node
   linkType: hard
 
-"@rails/ujs@npm:^6.0.0":
-  version: 6.1.6
-  resolution: "@rails/ujs@npm:6.1.6"
-  checksum: 7b811ea6a08c77335dbee60279b84bd245093b282dba53fc646a06d0e7fe20ac38eb4d73feab5845d5a25c6d1e9cd408ad3245baa962e63eb66bc8ca1dc67d37
+"@rails/ujs@npm:*":
+  version: 7.1.502
+  resolution: "@rails/ujs@npm:7.1.502"
+  checksum: 187e3ef1e8931ca103f9b50defc613ebeffee26c60b9dbbb40d1260a58cc8bdcd1f45e7caf778542fdf2cd3c8bda0f9eec2524824147a24988eef6f5801697ae
   languageName: node
   linkType: hard
 
@@ -5900,11 +5900,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "iCan@workspace:."
   dependencies:
-    "@rails/actioncable": ^6.0.0
-    "@rails/activestorage": ^6.0.0
-    "@rails/ujs": ^6.0.0
+    "@rails/actioncable": "*"
+    "@rails/activestorage": "*"
+    "@rails/ujs": "*"
     "@rails/webpacker": "*"
-    turbolinks: ^5.2.0
+    turbolinks: "*"
     webpack: "*"
     webpack-cli: "*"
     webpack-dev-server: "*"
@@ -10143,7 +10143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spark-md5@npm:^3.0.0":
+"spark-md5@npm:^3.0.1":
   version: 3.0.2
   resolution: "spark-md5@npm:3.0.2"
   checksum: 5feebff0bfabcecf56ba03af3e38fdb068272ed41fbf0a94ff9ef65b9bb9cb1dd69be3684db6542e62497b1eac3ae324c07ac4dcb606465dc36ca048177077bf
@@ -10799,7 +10799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbolinks@npm:^5.2.0":
+"turbolinks@npm:*":
   version: 5.2.0
   resolution: "turbolinks@npm:5.2.0"
   checksum: df393c321ed19d9761e632ff357d3cb032a9ca32c07f1ef8202e5f5bb9d17fcc93cdec0d9dfcf0fbca56c373a9dffa2c151639383e663a72897ae434a877819b
